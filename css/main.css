@@ -316,19 +316,48 @@ textarea {
 
 
 /* #################################### MON CSS ############################### */
+.bghead {
+   padding-bottom: 40px;
+   background-image: url("../img/imgxsm/rokfondd.jpg");
+   background-repeat: no-repeat;
+   padding-bottom: 30%;
+   height: 500px;
+   width: 100%;
+  }
 
 
-.bg-header {
-  background-image: url('img/imgxsm/rokfondd.jpg');
-      background-size: cover;
-      height: 500px !important;
+
+
+header h1{
+ border-bottom: solid white 1px;
+ margin-top: 50px;
+ font-size: 40px;
+ line-height: 2em;
+ color: white;
+ margin-left: 10px;
+
 }
 
+header p{
+margin-top: 25px;
+color: white;
+margin-left: 10px;
+}
 
+header a{
+ color: green;
+ padding-bottom: 30px;
+ margin-left: 10px;
+}
 
+.nav{
+ background-color:transparent !important;
 
+}
 
-
+.nav1{
+ margin-right: 10% !important;
+}
 
 
 
