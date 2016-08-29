@@ -411,6 +411,15 @@ header a:hover {
   word-spacing: 9px;
 }
 
+.pad {
+  padding-bottom: 7%;
+}
+.haut {
+  margin-top: 5%;
+}
+.first {
+  background-color: #F5F6F7 !important;
+}
 
 /* Extra small devices (phones, less than 768px) */
 
