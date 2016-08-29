@@ -319,14 +319,49 @@ textarea {
 .bghead {
    padding-bottom: 40px;
    background-image: url("../img/imgxsm/rokfondd.jpg");
+  filter: grayscale(30%);
    background-repeat: no-repeat;
-   padding-bottom: 30%;
-   height: 500px;
+   padding-bottom: 9%;
+
    width: 100%;
   }
+  .polm {
+    font-size: 4em;
+    margin-left: 7%;
+    color: grey;
+    opacity: 0.5;
+    padding-top: 0;
+  }
+  .regl {
+    margin-top: 2%;
+  }
+  .pol {
+    margin-left: 7%;
+    color:grey;
+  }
+  .polm:hover {
+    opacity: 1;
+    transition: 0.5s;
+    color:white;
+  }
+.bolds {
+  font-weight: bold;
+}
+ul li a {
+  color: white !important;
+  opacity: 0.5;
+  font-weight: bold;
+}
 
+ul li a:hover {
+  opacity: 1;
+  transition: 0.5s;
 
+}
 
+.colord {
+  color:white !important;
+}
 
 header h1{
  border-bottom: solid white 1px;
@@ -348,6 +383,13 @@ header a{
  color: green;
  padding-bottom: 30px;
  margin-left: 10px;
+ margin-left: 7%;
+ font-weight: bold;
+}
+header a:hover {
+  text-decoration: none;
+  color: grey;
+  transition: 0.5s;
 }
 
 .nav{
@@ -358,7 +400,16 @@ header a{
 .nav1{
  margin-right: 10% !important;
 }
-
+.poliss {
+  font-weight: xx-small !important;
+  color: grey;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  font-size: 13px !important;
+  text-align: left;
+  margin-left: 5%;
+  word-spacing: 9px;
+}
 
 
 /* Extra small devices (phones, less than 768px) */
