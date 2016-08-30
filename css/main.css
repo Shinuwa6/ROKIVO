@@ -339,11 +339,11 @@ header a:hover {
     margin-top: 2%;
 }
 .transpa {
-    opacity: 0.3;
+    opacity: 0.2;
 }
 .transpa:hover {
     opacity: 1;
-    transition: 0.5s;
+    transition: 1s;
 }
 .yes {
     display: none;
@@ -370,7 +370,7 @@ header a:hover {
 /* ##################################################################### */
 
 @media (min-width: 769px) {
-    
+
     .bghead {
         background-image: url("../img/rokfond.jpg");
     }
@@ -486,7 +486,7 @@ h1 {
 }
 h1:hover {
     opacity: 1;
-    transition: 0.5s;
+    transition: 0.4s;
     color: green;
 }
 
